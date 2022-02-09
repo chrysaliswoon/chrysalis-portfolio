@@ -5,6 +5,7 @@ import AboutMe from './AboutMe'
 import Experience from './Experience'
 import Work from './Work'
 import Contact from './Contact'
+import Welcome from './Welcome'
 
 
 export default function Website() {
@@ -17,6 +18,10 @@ export default function Website() {
         <Button name="Work"/>
         <Button name="Contact"/>
       </div>
+    
+    <div className="WelcomePage">
+      <Welcome />
+    </div>
       
     {/* Main Page Section */}
       <div className="MainPage">
