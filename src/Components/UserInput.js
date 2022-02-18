@@ -1,22 +1,9 @@
 import React, { useState } from 'react'
 
 export default function User(props) {
-    const [name, setName] = useState({name:''})
 
-    const handleClick = () => {
-        props.handleSubmit(name)
-        setName({name:''})
-    }
 
-    const handleChange = (event)=> {
-        const inputName = event.target.name
-        const inputValue = event.target.value
-
-        setName({
-            ...name,
-            [inputName]: inputValue
-        })
-    }
+    
 
     return (
       <div className="Welcome">
@@ -27,16 +14,9 @@ export default function User(props) {
         </div>
         
         <div className="userInput">
-          <input
-          onChange={handleChange}
-          type="text"
-          className="form-control"
-          name="name"
-          placeholder="Input your name"
-          />
+
         </div>
 
-        <button onClick={() => handleClick()}>Submit</button> 
       </div>
     );
   }

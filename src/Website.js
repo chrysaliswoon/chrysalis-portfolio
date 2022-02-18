@@ -1,12 +1,12 @@
-import './Website.css';
-import Button from './Button'
-import HomePage from './HomePage';
-import AboutMe from './AboutMe'
-import Experience from './Experience'
-import Work from './Work'
-import Contact from './Contact'
-import User from './UserInput'
-import Welcome from './Welcome'
+import './Components/Website.css';
+import Button from './Components/Button'
+import HomePage from './Components/HomePage';
+import AboutMe from './Components/AboutMe'
+import Experience from './Components/Experience'
+import Work from './Components/Work'
+import Contact from './Components/Contact'
+import User from './Components/UserInput'
+import Welcome from './Components/Welcome'
 
 
 export default function Website() {
@@ -20,14 +20,16 @@ export default function Website() {
         <Button name="Contact"/>
       </div>
     
+    {/* User Input Page */}
     <div className="UserInputPage">
       <User />
     </div>
 
+    {/* Welcome User Page */}
     <div className="WelcomePage">
       <Welcome />
     </div>
-      
+    
     {/* Main Page Section */}
       <div className="MainPage">
         <HomePage />
