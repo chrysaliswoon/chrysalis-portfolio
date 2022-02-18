@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-export default function UserInput() {
+export default function UserInput(props) {
 
-   const [newUser, setNewUser] = useState('')
+   const [newUser, setNewUser] = useState(props.user)
    const [print, setPrint] = useState(false)
 
    const addUser = (event) => {
@@ -26,7 +26,7 @@ export default function UserInput() {
             <button onClick={()=>setPrint(true)}>Submit</button>
             {
               print?
-              <p>Hi {newUser}</p>
+              <p>Hi {newUser}! It's nice to meet you!</p>
               :null
             }
           </form>
