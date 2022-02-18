@@ -1,23 +1,37 @@
 import React, { useState } from 'react'
 
-export default function User(props) {
+export default function UserInput() {
 
+   const [newUser, setNewUser] = useState('')
+   const [print, setPrint] = useState(false)
 
-    
+   const addUser = (event) => {
+     event.preventDefault()
+     console.log("Button Clicked", event.target)
+   }
+
+   const getUser =(event) => {
+     console.log(event.target.value)
+     setNewUser(event.target.value)
+     setPrint(false)
+   }
 
     return (
-      <div className="Welcome">
-          <h1>WELCOME!</h1>
-          
-        <div className="Header">
-          <p>How do I address you?</p>
-        </div>
-        
         <div className="userInput">
-
+          <form onSubmit={addUser}>
+            <input 
+            value={newUser}
+            onChange={getUser}
+            />
+            <button onClick={()=>setPrint(true)}>Submit</button>
+            {
+              print?
+              <p>Hi {newUser}</p>
+              :null
+            }
+          </form>
         </div>
 
-      </div>
     );
   }
   

@@ -1,6 +1,6 @@
 export default function Button(props) {
     return (
-        <button class="button" role="button">
+        <button className="button" role="button">
           {props.name}
       </button>
     );

@@ -19,11 +19,6 @@ export default function Website() {
         <Button name="Work"/>
         <Button name="Contact"/>
       </div>
-    
-    {/* User Input Page */}
-    <div className="UserInputPage">
-      <User />
-    </div>
 
     {/* Welcome User Page */}
     <div className="WelcomePage">
