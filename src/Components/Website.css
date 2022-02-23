@@ -53,7 +53,14 @@ h1 {
 }
 
 
-/* Button CSS */
+/* Social Icons */
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Button */
 .button {
   background-color: transparent;
   border: 1px solid #266DB6;

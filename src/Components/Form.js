@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-export default function Form(props) {
+export default function Form({user}) {
 
-   const [newUser, setNewUser] = useState(props.user)
+   const [newUser, setNewUser] = useState(user)
    const [print, setPrint] = useState(false)
 
    const addUser = (event) => {
