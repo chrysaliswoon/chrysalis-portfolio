@@ -2,7 +2,20 @@ import React, {useState, useEffect} from 'react'
 import axios from "axios"
 
 export default function Work() {
+  const [isLoading, setLoading] = useState(true)
+  const [project, setProject] = useState()
 
+  useEffect(() => {
+    axios.get("https://api.github.com/users/chrysaliswoon/starred")
+    .then(response => {
+      setProject(response.data[0])
+      setLoading(false)
+    })
+  }, [])
+
+  if (isLoading) {
+    return <div className="App">Loading...</div>
+  }
 
     return (
       <div className="Work">
@@ -10,8 +23,15 @@ export default function Work() {
         <div className="Header">
           <p>Explore My Work</p>
         </div>
+
         <div className="MainDescription">
-          <p>Insert description</p>
+          <h3>{project.name}</h3>
+
+          {project.description}
+          <br/>
+          <br/>
+          <button onClick={project.homepage}>Github</button>
+          <button onClick={project.html_url}>Live Site</button>
         </div>
       </div>
     );
