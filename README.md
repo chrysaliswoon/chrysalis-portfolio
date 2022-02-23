@@ -1,8 +1,5 @@
 # Personal Portfolio
 
-One Paragraph of project description goes here
-
-
 ## Project Brief
 **MVP - Minimum Viable Product** 
 - **Build a web application using create-react-app / vite or next.js**. Must be
@@ -15,10 +12,8 @@ One Paragraph of project description goes here
   - 2 routes
 - **Use 3rd party API and/or Firestore**
   - API call with Axios and display the data for the user. You may use any API
-    of your choosing or
-    [Find an available API here](https://github.com/public-apis/public-apis)
+    of your choosing.
 - **Craft a `README.md` file that explains your app** to the world.
-  [README Template](https://github.com/SEI2-jeddah/README-Template/blob/master/README.md)
 - **Create wireframes** for your app and include it in your repo/readme.
 
 **Stretch Goals (Not Mandatory)**
@@ -26,25 +21,23 @@ One Paragraph of project description goes here
 
 ## Description
 
-A description of your project. Explain what is the project about and what is the use for it.
+A lightweight, customizable single-page personal portfolio website template built with React and Github API, to showcase my personal experiences and work which I have deployed using Vercel. Portfolio websites are an easy way to promote myself and my brand, while allowing potential employers to have an insight into my personality and character.
 
 ### Technical Used
 For this project, I used the following technologies:
 
 ```
-
 - React
 - Bootstrap with react
 - Ajax (axios) for API
-
+- Postman
+```
 
 ### Wireframes
 
 Your step by step planning sketch of your project, that you can post them as an image in here.
 
 ### User Stories
-
-A story of the project user, that explains the use of the project.
 
 ```
 Example:
@@ -75,13 +68,18 @@ List unsolved problems which would be fixed in future iterations.
 
 ## APIs Used
 
-List your APIs you have used in this project and explain why did you use it.
+- [Github API](https://docs.github.com/en/rest)
 
 ---
 
 ## Acknowledgments
 
+I would like to thank [Michael](https://github.com/MichaelKalamogan/) for his advice and guidance throughout this project. 
 
 ---
 
  ## References
+ 
+ - https://codewithnico.com/react-wait-axios-to-render/
+ - https://imjoshellis.com/
+ - https://medium.com/swlh/building-controlled-forms-using-functional-components-in-react-965d033a89bd
