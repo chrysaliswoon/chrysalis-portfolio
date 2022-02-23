@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function UserInput(props) {
+export default function Form(props) {
 
    const [newUser, setNewUser] = useState(props.user)
    const [print, setPrint] = useState(false)
@@ -17,7 +17,7 @@ export default function UserInput(props) {
    }
 
     return (
-        <div className="userInput">
+        <div className="Form">
           <form onSubmit={addUser}>
             <input 
             value={newUser}

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from "axios"
+import Button from './Button'
 
 export default function Work() {
   const [isLoading, setLoading] = useState(true)
@@ -8,7 +9,7 @@ export default function Work() {
   useEffect(() => {
     axios.get("https://api.github.com/users/chrysaliswoon/starred")
     .then(response => {
-      setProject(response.data[0])
+      setProject(response.data)
       setLoading(false)
     })
   }, [])
@@ -25,13 +26,17 @@ export default function Work() {
         </div>
 
         <div className="MainDescription">
-          <h3>{project.name}</h3>
-
-          {project.description}
-          <br/>
-          <br/>
-          <button onClick={project.homepage}>Github</button>
-          <button onClick={project.html_url}>Live Site</button>
+        
+          <ul>
+            {project.map(project => (
+              <li key={project.id}>
+                <h3>{project.name}</h3>
+                <p>{project.description}</p>
+                <Button name="Github" onclick={project.homepage}/>
+                <Button name="Live Site" onclick={project.html_url}/>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     );

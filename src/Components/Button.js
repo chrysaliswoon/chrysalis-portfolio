@@ -1,7 +1,7 @@
-export default function Button(props) {
+export default function Button({name}) {
     return (
         <button className="button" role="button">
-          {props.name}
+          {name}
       </button>
     );
   }

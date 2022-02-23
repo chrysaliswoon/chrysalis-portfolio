@@ -5,7 +5,6 @@ import AboutMe from './Components/AboutMe'
 import Experience from './Components/Experience'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
-import User from './Components/UserInput'
 import Welcome from './Components/Welcome'
 
 

@@ -1,5 +1,3 @@
-import UserInput from "./UserInput";
-
 export default function AboutMe() {
     return (
       <div className="AboutMe">

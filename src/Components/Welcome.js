@@ -1,4 +1,4 @@
-import UserInput from "./UserInput";
+import Form from './Form'
 
 export default function Welcome() {
 
@@ -8,7 +8,7 @@ export default function Welcome() {
       
     <div className="Header">
       <p>How do I address you?</p>
-      <UserInput />
+      <Form />
     </div>
       </div>
     );
