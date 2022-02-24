@@ -2,7 +2,7 @@ import './Components/Website.css';
 import Button from './Components/Button'
 import HomePage from './Components/HomePage';
 import AboutMe from './Components/AboutMe'
-import Experience from './Components/Experience'
+import Experience from './Routes/Experience'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
 import Welcome from './Components/Welcome'
@@ -34,8 +34,6 @@ export default function Website() {
     {/* About Me Page Section */}
       <div className="AboutMePage">
         <AboutMe />
-        <br></br>
-        <Button name="Get My Resume!"/>
       </div>
 
     {/* My Experiences Page Section */}
