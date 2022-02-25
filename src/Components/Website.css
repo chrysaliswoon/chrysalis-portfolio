@@ -25,6 +25,7 @@
   top: 20px;
 }
 
+
 /* .MainPage {
   position: absolute;
   width: 985px;
@@ -51,6 +52,10 @@ h1 {
   line-height: 45px;
   color: #936E9E;
 }
+
+li {
+  list-style-type: none;
+ }
 
 
 /* Social Icons */

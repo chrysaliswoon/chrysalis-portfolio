@@ -1,7 +1,9 @@
 import './Components/Website.css';
+import { Outlet, Link } from 'react-router-dom';
+
 import Button from './Components/Button'
 import HomePage from './Components/HomePage';
-import AboutMe from './Components/AboutMe'
+import AboutMe from './Components/About'
 import Experience from './Routes/Experience'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
@@ -13,10 +15,10 @@ export default function Website() {
     // Top Navigation Bar Section //
     <div className="HomePage">
       <div className="NavBar">
-        <Button name="About"/>
-        <Button name="Experience"/>
-        <Button name="Work"/>
-        <Button name="Contact"/>
+        <Link to='./About'><Button name="About"/></Link>
+        <Link to='./Experience'><Button name="Experience"/></Link>
+        <Link to='./Work'><Button name="Work"/></Link>
+        <Link to='./Contact'><Button name="Contact"/></Link>
       </div>
 
     {/* Welcome User Page */}
@@ -51,6 +53,7 @@ export default function Website() {
       <Contact />
     </div>
 
+    <Outlet />
     </div>
   );
 }

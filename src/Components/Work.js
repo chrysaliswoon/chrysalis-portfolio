@@ -27,16 +27,19 @@ export default function Work() {
 
         <div className="MainDescription">
         
-          <ul>
+          <div>
             {project.map(project => (
               <li key={project.id}>
-                <h3>{project.name}</h3>
-                <p>{project.description}</p>
-                <Button name="Github" onclick={project.homepage}/>
-                <Button name="Live Site" onclick={project.html_url}/>
+                  <h3>{project.name}</h3>
+                  <p>{project.description}</p>
+                  <a href={project.html_url}><Button name="Github"/></a>
+                  <a href={project.homepage}><Button name="Live Site"/></a>
+                  
+                  {/* <a href={project.html_url}><Button name="Github"/></a>
+                  <a href={project.homepage}><Button name="Live Site"/></a> */}
               </li>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     );
