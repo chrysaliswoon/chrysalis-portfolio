@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import Website from "./Website";
-// import ComingSoon from './Components/comingsoon'
+import ComingSoon from './Components/comingsoon'
 
 ReactDOM.render(
   <React.StrictMode>
