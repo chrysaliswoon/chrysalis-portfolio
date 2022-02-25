@@ -11,7 +11,7 @@ export default function Contact() {
         <img src="" alt="LinkedIn Logo"></img>
         <img src="https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Components/Image%20Assets/twitter.png?raw=true" alt="Twitter Logo"></img>
         <img src="" alt="Github Logo"></img>
-        <img src="" alt="Email Logo"></img>
+        <img src="" alt="LinkedIn Logo"></img>
       </div>
     </div>
   );
