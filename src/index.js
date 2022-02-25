@@ -8,8 +8,8 @@ import Website from "./Website";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Website />
-      {/* <ComingSoon /> */}
+      {/* <Website /> */}
+      <ComingSoon />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
