@@ -4,10 +4,10 @@ import { Outlet, Link } from 'react-router-dom';
 import Button from './Components/Button'
 import HomePage from './Components/HomePage';
 import AboutMe from './Components/About'
-import Experience from './Routes/Experience'
+import Experience from './Components/Experience'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
-import Welcome from './Components/Welcome'
+
 
 
 export default function Website() {
@@ -15,10 +15,14 @@ export default function Website() {
     // Top Navigation Bar Section //
     <div className="HomePage">
       <div className="NavBar">
-        <Link to='./About'><Button name="About"/></Link>
-        <Link to='./Experience'><Button name="Experience"/></Link>
-        <Link to='./Work'><Button name="Work"/></Link>
-        <Link to='./Contact'><Button name="Contact"/></Link>
+        <a href='#AboutMe'><Button name="About"/></a>
+        <a href='#Experience'><Button name="Experience"/></a>
+        <a href='#Work'><Button name="Work"/></a>
+        <a href='#Contact'><Button name="Contact"/></a>
+        {/* <Link to='./About'><Button name="About"/></Link> */}
+        {/* <Link to='./Experience'><Button name="Experience"/></Link>
+        <Link to='./Work'><Button name="Work"/></Link> */}
+        {/* <Link to='./Contact'><Button name="Contact"/></Link> */}
       </div>
     
     {/* Main Page Section */}
@@ -48,7 +52,8 @@ export default function Website() {
       <Contact />
     </div>
 
-    <Outlet />
+    {/* QN: Do I need to put outlet here? */}
+    <Outlet /> 
     </div>
   );
 }
