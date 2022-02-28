@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 import jobExperience from './Data'
 
 export default function Experience() {
@@ -18,13 +18,14 @@ export default function Experience() {
             >
                 {experiences.map((experience) => (
                     <Link style={{display: 'block', margin: '1rem 0'}}
-                    to={`#Experience`}
+                    to={`/experiences/${experience.id}`}
                     key={experience.id}
                 >
                     {experience.company}
                 </Link>
                 ))}
             </nav>
+            <Outlet />
         </div>
       </div>
     );
