@@ -20,11 +20,6 @@ export default function Website() {
         <Link to='./Work'><Button name="Work"/></Link>
         <Link to='./Contact'><Button name="Contact"/></Link>
       </div>
-
-    {/* Welcome User Page */}
-    <div className="WelcomePage">
-      <Welcome />
-    </div>
     
     {/* Main Page Section */}
       <div className="MainPage">
