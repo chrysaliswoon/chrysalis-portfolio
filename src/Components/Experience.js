@@ -17,8 +17,9 @@ export default function Experience() {
             }}
             >
                 {experiences.map((experience) => (
-                    <Link style={{display: 'block', margin: '1rem 0'}}
-                    to={`/experiences/${experience.id}`}
+                    <Link 
+                    style={{display: 'block', margin: '1rem 0'}}
+                    to={experience.id}
                     key={experience.id}
                 >
                     {experience.company}

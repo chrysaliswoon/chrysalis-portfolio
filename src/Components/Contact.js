@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './ContactForm'
 
 export default function Contact() {
   return (
@@ -12,6 +13,9 @@ export default function Contact() {
         <a href="https://twitter.com/chrysaliswoon"><img src="https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/twitter.png?raw=true" alt="Twitter Logo"></img></a>
         <a href="https://github.com/chrysaliswoon"><img src="https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/github.png?raw=true" alt="Github Logo"></img></a>
         <a href = "mailto:chrysaliswoon@gmail.com"><img src="https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/email.png?raw=true" alt="Email Logo"></img></a>
+      </div>
+      <div className="ContactForm">
+        <ContactForm formSlug="chrysaliswoon"/>
       </div>
     </div>
   );
