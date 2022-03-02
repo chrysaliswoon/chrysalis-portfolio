@@ -17,14 +17,6 @@
   color: white;
 } */
 
-.NavBar {
-  position: absolute;
-  width: 875px;
-  height: 116px;
-  left: 840px;
-  top: 20px;
-}
-
 h1 {
   font-family: 'Bowlby One SC';
   font-style: normal;

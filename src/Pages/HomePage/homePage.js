@@ -1,56 +1,45 @@
 import "./homePage.css";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-
-import Button from "../../Components/Button/Button";
-import HomePage from "../../Components/Introduction/Introduction";
-import AboutMe from "../../Components/AboutMe/About";
+import AboutMe from "../../Components/AboutMe/AboutMe";
 import Experience from "../../Components/Experiences/Experience";
 import Work from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
 import NavBar from "../../Components/NavigationBar/NavBar";
+import Introduction from "../../Components/Introduction/Introduction";
 
 export default function Website() {
   return (
     // Top Navigation Bar Section //
     <div className="HomePage">
+      <section id="HomePage">
         <NavBar />
+      </section>
 
       {/* Main Page Section */}
       <div className="MainPage">
         <section id="Introduction">
-          <HomePage />
-          <br />
-          <Button name="Connect!" />
+          <Introduction />
         </section>
       </div>
 
       {/* About Me Page Section */}
-      <div className="AboutMePage">
-        <section id="About">
-          <AboutMe />
-        </section>
-      </div>
+      <section id="AboutMe">
+        <AboutMe />
+      </section>
 
       {/* My Experiences Page Section */}
-      <div className="ExperiencePage">
-        <section id="Experience">
-          <Experience />
-        </section>
-      </div>
+      <section id="Experience">
+        <Experience />
+      </section>
 
       {/* My Projects Page Section */}
-      <div className="ProjectPage">
-        <section id="Work">
-          <Work />
-        </section>
-      </div>
+      <section id="Projects">
+        <Work />
+      </section>
 
       {/* Contact Page Section  */}
-      <div className="ContactPage">
-        <section id="Contact">
-          <Contact />
-        </section>
-      </div>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 }
