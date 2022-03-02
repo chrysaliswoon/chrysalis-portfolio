@@ -1,60 +1,68 @@
-import './Components/Website.css';
-import { Outlet, Link } from 'react-router-dom';
+import "./Components/Website.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import Button from './Components/Button'
-import HomePage from './Components/HomePage';
-import AboutMe from './Components/About'
-import Experience from './Components/Experience'
-import Work from './Components/Work'
-import Contact from './Components/Contact'
-
-
+import Button from "./Components/Button";
+import HomePage from "./Components/HomePage";
+import AboutMe from "./Components/About";
+import Experience from "./Components/Experience";
+import Work from "./Components/Work";
+import Contact from "./Components/Contact";
 
 export default function Website() {
   return (
     // Top Navigation Bar Section //
     <div className="HomePage">
       <div className="NavBar">
-        <a href='#AboutMe'><Button name="About"/></a>
-        <a href='#Experience'><Button name="Experience"/></a>
-        <a href='#Work'><Button name="Work"/></a>
-        <a href='#Contact'><Button name="Contact"/></a>
-        {/* <Link to='./About'><Button name="About"/></Link> */}
-        {/* <Link to='./Experience'><Button name="Experience"/></Link>
-        <Link to='./Work'><Button name="Work"/></Link> */}
-        {/* <Link to='./Contact'><Button name="Contact"/></Link> */}
+        <AnchorLink href="#About">
+          <Button name="About" />
+        </AnchorLink>
+        <AnchorLink href="#Experience">
+          <Button name="Experience" />
+        </AnchorLink>
+        <AnchorLink href="#Work">
+          <Button name="Work" />
+        </AnchorLink>
+        <AnchorLink href="#Contact">
+          <Button name="Contact" />
+        </AnchorLink>
       </div>
-    
-    {/* Main Page Section */}
+
+      {/* Main Page Section */}
       <div className="MainPage">
-        <HomePage />
-        <br></br>
-        <Button name="Connect!"/>
+        <section id="Introduction">
+          <HomePage />
+          <br />
+          <Button name="Connect!" />
+        </section>
       </div>
 
-    {/* About Me Page Section */}
+      {/* About Me Page Section */}
       <div className="AboutMePage">
-        <AboutMe />
+        <section id="About">
+          <AboutMe />
+        </section>
       </div>
 
-    {/* My Experiences Page Section */}
+      {/* My Experiences Page Section */}
       <div className="ExperiencePage">
-        <Experience />
+        <section id="Experience">
+          <Experience />
+        </section>
       </div>
 
-    {/* My Projects Page Section */}
-    <div className="ProjectPage">
-      <Work />
-    </div>
+      {/* My Projects Page Section */}
+      <div className="ProjectPage">
+        <section id="Work">
+          <Work />
+        </section>
+      </div>
 
-    {/* Contact Page Section  */}
-    <div className="ContactPage">
-      <Contact />
-    </div>
-
-    {/* QN: Do I need to put outlet here? */}
-    <Outlet /> 
+      {/* Contact Page Section  */}
+      <div className="ContactPage">
+        <section id="Contact">
+          <Contact />
+        </section>
+      </div>
     </div>
   );
 }
-
