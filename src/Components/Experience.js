@@ -1,4 +1,5 @@
 import jobExperience from "./Data";
+import "./Experience.css"
 
 export default function Experiences() {
   let experiences = jobExperience();
