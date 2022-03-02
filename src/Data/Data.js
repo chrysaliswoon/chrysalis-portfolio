@@ -1,6 +1,4 @@
-export default function jobExperience() {
-    return (
-        [
+const jobExperience = [
             {
                 id: 2001,
                 jobTitle:"Instructional Team",
@@ -31,6 +29,6 @@ export default function jobExperience() {
                 point2:"Planned and executed several marketing campaigns for clients which led to an increase in applicants hired by 30%.",
                 point3:"Developed and launched the company’s blog to increase audience reach by 60%."
             },
-        ] 
-    )
-}
+        ]
+
+export default jobExperience

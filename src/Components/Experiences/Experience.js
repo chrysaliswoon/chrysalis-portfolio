@@ -1,8 +1,16 @@
 import "./Experience.css";
-import Companies from "./Companies";
+import React, {useState} from "react";
+import jobExperience from "../../Data/Data";
 import Description from "./ExperienceDesc";
+import Companies from "./Companies"
 
 export default function Experiences() {
+  const [company, setCompany] = useState(jobExperience)
+  const [description, setDescription] = useState([])
+
+  const update = details => {
+    setDescription([description, details])
+  }
 
   return (
     <div className="Experience">
@@ -18,9 +26,9 @@ export default function Experiences() {
             padding: "1rem",
           }}
         >
-          <Companies />
+          <Companies experiences = {company} handleClick={update}/>
         </nav>
-        <Description />
+        <Description descriptions = {description}/>
       </div>
     </div>
   );

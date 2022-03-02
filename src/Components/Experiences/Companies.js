@@ -1,23 +1,20 @@
-import React from "react";
-import jobExperience from "../../Data/Data";
+import React from 'react'
 
-export default function Companies() {
+export default function Companies({experiences, handleClick}) {
 
-  function handleClick(e) {
-    e.preventDefault();
-
-    // console.log(experiences);
-  }
+  // function handleClick() {
+  //   console.log("Clicked");
+  // }
 
   return (
     <div >
-      {jobExperience().map((experience) => (
+      {experiences.map(experience => 
         <li key={experience.id}>
-          <a onClick={handleClick} style={{ cursor: "pointer" }}>
+          <a onClick={() => handleClick(experience)} style={{ cursor: "pointer" }}>
             {experience.company}
           </a>
         </li>
-      ))}
+      )}
     </div>
   );
 }
