@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
-.App {
+/* .homePage {
   text-align: center;
 }
 
@@ -15,7 +15,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .NavBar {
   position: absolute;
@@ -24,15 +24,6 @@
   left: 840px;
   top: 20px;
 }
-
-
-/* .MainPage {
-  position: absolute;
-  width: 985px;
-  height: 464px;
-  left: 32px;
-  top: 347px;
-} */
 
 h1 {
   font-family: 'Bowlby One SC';

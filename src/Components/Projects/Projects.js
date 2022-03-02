@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from "axios"
-import Button from './Button'
+import Button from '../Button/Button'
 
 export default function Work() {
   const [isLoading, setLoading] = useState(true)

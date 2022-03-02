@@ -1,4 +1,4 @@
-import Form from './Form'
+import Form from '../../Components/UserInput/Form'
 
 export default function Welcome() {
 

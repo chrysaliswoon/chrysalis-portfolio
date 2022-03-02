@@ -28,6 +28,7 @@ export default function Form({user}) {
               print?
               <p>Hi {newUser}! It's nice to meet you!</p>
               :null
+              
             }
           </form>
         </div>

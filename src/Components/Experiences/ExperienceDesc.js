@@ -1,5 +1,5 @@
 import React from 'react'
-import jobExperience from './Data'
+import jobExperience from '../../Data/Data'
 
 export default function Description() {
 
