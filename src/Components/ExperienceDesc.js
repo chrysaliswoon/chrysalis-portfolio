@@ -11,11 +11,6 @@ export default function Description() {
 
     return (
         <div style={{display: 'flex'}}>
-        <nav style={{
-            borderRight: 'solid 1px',
-            padding: '1rem'
-        }}
-        >
             {experiences.map((experience) => (
                 <div key = {experience.id}>
                         {experience.jobTitle} | {" "} {experience.company}
@@ -26,7 +21,6 @@ export default function Description() {
                         <li>{experience.point3}</li>
                 </div>
             ))}
-        </nav>
     </div>
     )
 }
