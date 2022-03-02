@@ -1,36 +1,17 @@
-import jobExperience from "./Data";
-import "./Experience.css"
+import {useState} from 'react'
+import './Experience.css'
+import Companies from './Companies'
+import Description from './ExperienceDesc'
 
 export default function Experiences() {
-  let experiences = jobExperience();
-
-  function handleClick(e) {
-    e.preventDefault();
-    console.log(experiences);
-  }
-
-  return (
-    <div className="Welcome">
+    return (
+      <div className="Experience">
       <h1>My Journey</h1>
       <div className="Header">
         <p>A Brief History of My Work</p>
       </div>
-      <div style={{ display: "flex" }}>
-        <nav
-          style={{
-            borderRight: "solid 1px",
-            padding: "1rem",
-          }}
-        >
-          {experiences.map((experience) => (
-            <li key={experience.id}>
-              <a onClick={handleClick} style={{ cursor: "pointer" }}>
-                {experience.company}
-              </a>
-            </li>
-          ))}
-        </nav>
-      </div>
-    </div>
-  );
+          <Companies />
+          <Description />
+        </div>
+    )
 }

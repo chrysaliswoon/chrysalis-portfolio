@@ -1,10 +1,9 @@
-
 export default function jobExperience() {
     return (
         [
             {
                 id: 2001,
-                jobTitle:"INSTRUCTIONAL TEAM",
+                jobTitle:"Instructional Team",
                 duration:"Nov 2021 - Present",
                 company:"Kodecoon Academy", 
                 location: "Singapore (Remote)",
@@ -14,7 +13,7 @@ export default function jobExperience() {
             },
             {
                 id: 2018,
-                jobTitle:"PRODUCT TEAM",
+                jobTitle:"Product Team",
                 duration:"Feb 2018 - Nov 2021",
                 company: "Saturday Kids",
                 location:"Singapore",
@@ -24,7 +23,7 @@ export default function jobExperience() {
             },
             {
                 id: 2015, 
-                jobTitle:"SPECIAL PROJECTS",
+                jobTitle:"Special Projects",
                 duration:"May 2015 - Feb 2016",
                 company:"Glints",
                 location:"Singapore",
@@ -32,15 +31,6 @@ export default function jobExperience() {
                 point2:"Planned and executed several marketing campaigns for clients which led to an increase in applicants hired by 30%.",
                 point3:"Developed and launched the company’s blog to increase audience reach by 60%."
             },
-            {
-                id: 2022,
-                jobTitle:"",
-                duration:"",
-                location:"",
-                point1:"",
-                point2:"",
-                point3:""
-            }
         ] 
     )
 }

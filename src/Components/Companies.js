@@ -1,7 +1,7 @@
 import React from 'react'
 import jobExperience from './Data'
 
-export default function Description() {
+export default function Companies() {
     let experiences = jobExperience()
 
     function handleClick(e) {
@@ -17,14 +17,13 @@ export default function Description() {
         }}
         >
             {experiences.map((experience) => (
-                <div key = {experience.id}>
-                        {experience.jobTitle} | {" "} {experience.company}
-                        <br />
-                        {experience.duration} 
-                        <li>{experience.point1}</li>
-                        <li>{experience.point2}</li>
-                        <li>{experience.point3}</li>
-                </div>
+                <li key = {experience.id}>
+                    <a onClick={handleClick} 
+                    style={{cursor: 'pointer'}}
+                    > 
+                        {experience.company}
+                    </a>
+                </li>
             ))}
         </nav>
     </div>
