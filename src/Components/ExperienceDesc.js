@@ -2,16 +2,10 @@ import React from 'react'
 import jobExperience from './Data'
 
 export default function Description() {
-    let experiences = jobExperience()
-
-    function handleClick(e) {
-        e.preventDefault()
-        console.log(experiences)
-    }
 
     return (
         <div style={{display: 'flex'}}>
-            {experiences.map((experience) => (
+            {jobExperience().map((experience) => (
                 <div key = {experience.id}>
                         {experience.jobTitle} | {" "} {experience.company}
                         <br />
