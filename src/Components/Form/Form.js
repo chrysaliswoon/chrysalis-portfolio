@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
+import reactDom from 'react-dom'
 
 export default function Form({user}) {
 
    const [newUser, setNewUser] = useState(user)
-   const [print, setPrint] = useState(false)
 
    const addUser = (event) => {
      event.preventDefault()
-     console.log("Button Clicked", event.target)
    }
 
    const getUser =(event) => {
-     console.log(event.target.value)
+     event.preventDefault()
      setNewUser(event.target.value)
-     setPrint(false)
+     console.log(newUser)
    }
+   
 
     return (
         <div className="Form">
@@ -23,16 +23,9 @@ export default function Form({user}) {
             value={newUser}
             onChange={getUser}
             />
-            <button onClick={()=>setPrint(true)}>Submit</button>
-            {
-              print?
-              <p>Hi {newUser}! It's nice to meet you!</p>
-              :null
-              
-            }
+            <button type="submit">Submit</button>
           </form>
         </div>
 
     );
-  }
-  
+}

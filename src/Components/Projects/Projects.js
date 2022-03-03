@@ -34,9 +34,6 @@ export default function Work() {
                   <p>{project.description}</p>
                   <a href={project.html_url}><Button name="Github"/></a>
                   <a href={project.homepage}><Button name="Live Site"/></a>
-                  
-                  {/* <a href={project.html_url}><Button name="Github"/></a>
-                  <a href={project.homepage}><Button name="Live Site"/></a> */}
               </li>
             ))}
           </div>
