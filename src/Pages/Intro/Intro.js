@@ -1,6 +1,6 @@
 import Form from '../../Components/UserInput/Form'
 
-export default function Welcome() {
+export default function Introduction() {
 
     return (
       <div className="Welcome">

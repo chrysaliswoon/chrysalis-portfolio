@@ -1,4 +1,17 @@
-const jobExperience = [
+export const intialJob = [
+    {
+        id: 2001,
+        jobTitle:"Instructional Team",
+        duration:"Nov 2021 - Present",
+        company:"Kodecoon Academy", 
+        location: "Singapore (Remote)",
+        point1:"Managed products and process-improvement projects together with the Curriculum Team.",
+        point2:"Developed follow-up materials to increase customer retention by 40%.",
+        point3:""
+    }
+]
+
+export const jobExperience = [
             {
                 id: 2001,
                 jobTitle:"Instructional Team",
@@ -30,5 +43,3 @@ const jobExperience = [
                 point3:"Developed and launched the company’s blog to increase audience reach by 60%."
             },
         ]
-
-export default jobExperience
