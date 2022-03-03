@@ -6,7 +6,7 @@ import Companies from "./Companies"
 
 export default function Experiences() {
   const [company, setCompany] = useState(jobExperience)
-  const [description, setDescription] = useState([])
+  const [description, setDescription] = useState(jobExperience)
 
   const update = details => {
     setDescription([description, details])
@@ -23,7 +23,7 @@ export default function Experiences() {
         <nav
           style={{
             borderRight: "solid 1px",
-            padding: "1rem",
+            padding: "1px",
           }}
         >
           <Companies experiences = {company} handleClick={update}/>

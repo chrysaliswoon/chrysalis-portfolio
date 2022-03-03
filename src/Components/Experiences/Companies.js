@@ -11,7 +11,7 @@ export default function Companies({experiences, handleClick}) {
       {experiences.map(experience => 
         <li key={experience.id}>
           <a onClick={() => handleClick(experience)} style={{ cursor: "pointer" }}>
-            {experience.company}
+            <p>{experience.company}</p>
           </a>
         </li>
       )}

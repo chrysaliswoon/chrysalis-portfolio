@@ -1,4 +1,9 @@
-.Experience a:active {
-    background-color: lightblue
-    
+
+.Experience a:hover, a:active {
+    background: lightblue
+}
+
+li {
+    padding: 5px;
+    list-style-type: none;
 }
