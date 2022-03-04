@@ -1,0 +1,35 @@
+
+.InputStyle {
+    border-radius: 25px;
+    border: solid 1px white;
+    background: transparent;
+    width: 300px;
+    padding: 10px 20px
+}
+
+input, input::-webkit-input-placeholder {
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background: transparent;
+    width: 300px;
+}
+
+
+i {
+    padding: 5px;
+    color: white
+}
+
+input,
+input:focus {
+    border: none;
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: nones;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+

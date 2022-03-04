@@ -1,3 +1,4 @@
+import "./Companies.css"
 import React from 'react'
 
 export default function Companies({experiences, handleClick}) {

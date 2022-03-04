@@ -1,3 +1,4 @@
+import "./Form.css"
 import React, { useState } from 'react'
 import WelcomeUser from '../../Pages/Welcome/WelcomeUser';
 
@@ -10,7 +11,7 @@ export default function Form() {
   }
    
     return (
-        <div className="Form">
+        <div className="InputStyle">
           <form onSubmit={handleClick}>
             <input 
             type="name"

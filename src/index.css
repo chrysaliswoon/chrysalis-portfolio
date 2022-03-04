@@ -1,17 +1,34 @@
-* {
-  margin: 5px
+/* Font CSS */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+h1 {
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 63px;
+  color: #1C0F1C;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Header {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #936E9E;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style-type: none;
+ }
+
+
+/* Social Icons */
+
+img {
+  height: 50px;
+  width: 50px;
 }

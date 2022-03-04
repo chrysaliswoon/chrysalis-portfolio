@@ -1,3 +1,4 @@
+import "./WelcomeUser.css"
 import React, {useEffect, useState} from 'react'
 import { useNavigate } from 'react-router'
 import Form from '../../Components/Form/Form'
