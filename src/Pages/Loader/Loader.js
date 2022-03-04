@@ -1,9 +1,13 @@
 import React, {useState, useEffect} from 'react'
+import { useNavigate } from 'react-router'
 import axios from "axios"
+
 
 export default function LoadingPage() {
   const [isLoading, setLoading] = useState(true)
   const [quotes, setQuotes] = useState()
+  const navigate = useNavigate()
+
 
   useEffect(() => {
     axios.get("https://api.quotable.io/random?maxLength=50")
@@ -13,6 +17,14 @@ export default function LoadingPage() {
       setLoading(false)
     })
   }, [])
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+        // console.log('1 second passed')
+        navigate('/')
+    }, 3000)
+    return () => clearTimeout(timer)
+}, [])
 
   if (isLoading) {
     return <div className="App">Loading...</div>

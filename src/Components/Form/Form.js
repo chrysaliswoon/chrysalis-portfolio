@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import reactDom from 'react-dom'
+import { Route, useNavigate } from 'react-router'
 
 export default function Form({user}) {
+  const navigate = useNavigate()
 
    const [newUser, setNewUser] = useState(user)
 
@@ -12,7 +13,7 @@ export default function Form({user}) {
    const getUser =(event) => {
      event.preventDefault()
      setNewUser(event.target.value)
-     console.log(newUser)
+    //  console.log(newUser)
    }
    
 
@@ -23,7 +24,6 @@ export default function Form({user}) {
             value={newUser}
             onChange={getUser}
             />
-            <button type="submit">Submit</button>
           </form>
         </div>
 
