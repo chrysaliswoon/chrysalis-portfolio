@@ -13,7 +13,6 @@ export default function LoadingPage() {
     axios.get("https://api.quotable.io/random?maxLength=50")
     .then(response => {
       setQuotes(response.data)
-      console.log(response.data)
       setLoading(false)
     })
   }, [])
@@ -21,7 +20,7 @@ export default function LoadingPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
         // console.log('1 second passed')
-        navigate('/')
+        navigate('/home')
     }, 3000)
     return () => clearTimeout(timer)
 }, [])

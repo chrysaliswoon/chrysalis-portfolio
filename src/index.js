@@ -11,10 +11,10 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='introduction' element={<Introduction />} />
-        <Route path='loading' element={<LoadingPage />} />
-        <Route path='welcome' element={<WelcomeUser />} />
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<Introduction />} />
+        <Route path='/welcome' element={<WelcomeUser />} />
+        <Route path='/loading' element={<LoadingPage />} />
+        <Route path='/home' element={<HomePage />} />
           <Route path="*" element={<main style={{padding: '1rem'}}>
             <p>404: Not Found</p>
             </main>

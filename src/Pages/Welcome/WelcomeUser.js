@@ -1,9 +1,10 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import { useNavigate } from 'react-router'
+import Form from '../../Components/Form/Form'
 
-
-export default function WelcomeUser(){
+export default function WelcomeUser({userInput}){
     const navigate = useNavigate()
+
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -15,8 +16,7 @@ export default function WelcomeUser(){
 
     return (
         <div>
-        <p>Hi ! It's nice to meet you!</p>
-
+        <p>Hi {userInput}! It's nice to meet you!</p>
         </div>
     )
 }

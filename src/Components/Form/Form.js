@@ -1,28 +1,21 @@
 import React, { useState } from 'react'
-import { Route, useNavigate } from 'react-router'
+import WelcomeUser from '../../Pages/Welcome/WelcomeUser';
 
-export default function Form({user}) {
-  const navigate = useNavigate()
+export default function Form() {
+  const [name, setName] = useState("")
+  console.log(name)
 
-   const [newUser, setNewUser] = useState(user)
-
-   const addUser = (event) => {
-     event.preventDefault()
-   }
-
-   const getUser =(event) => {
-     event.preventDefault()
-     setNewUser(event.target.value)
-    //  console.log(newUser)
-   }
+  const handleClick = (event) => {
+    event.preventDefault()
+  }
    
-
     return (
         <div className="Form">
-          <form onSubmit={addUser}>
+          <form onSubmit={handleClick}>
             <input 
-            value={newUser}
-            onChange={getUser}
+            type="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             />
           </form>
         </div>
