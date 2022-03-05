@@ -1,10 +1,10 @@
 import "./Form.css"
-import React, { useState } from 'react'
-import WelcomeUser from '../../Pages/Welcome/WelcomeUser';
+import React from 'react'
 
-export default function Form() {
-  const [name, setName] = useState("")
-  console.log(name)
+export default function Form({name, setName}) {
+
+  // console.log(name)
+  // console.log(process.env.REACT_APP_LOAD_INTRO)
 
   const handleClick = (event) => {
     event.preventDefault()
