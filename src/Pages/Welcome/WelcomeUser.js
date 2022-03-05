@@ -1,6 +1,7 @@
 import "./WelcomeUser.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
+import ParticlesBackground from "../../Components/Particles/Particles";
 
 export default function WelcomeUser() {
   const navigate = useNavigate();
@@ -25,12 +26,15 @@ export default function WelcomeUser() {
   }, []);
 
   return (
+    <div className="bg text-center">
+      <ParticlesBackground />
       <div className="Intro">
-        <div className="Header">
+        <div className="WelcomeUser">
           <blockquote className="blockquote text-center text-success">
             <p>Hi {state}! It's nice to meet you!</p>
           </blockquote>
         </div>
       </div>
+    </div>
   );
 }
