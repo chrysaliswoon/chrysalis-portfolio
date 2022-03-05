@@ -6,8 +6,8 @@ export default function Form({name, setName}) {
   // console.log(name)
   // console.log(process.env.REACT_APP_LOAD_INTRO)
 
-  const handleClick = (event) => {
-    event.preventDefault()
+  const handleClick = (e) => {
+    e.preventDefault()
   }
    
     return (

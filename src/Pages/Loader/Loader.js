@@ -2,7 +2,7 @@ import "./Loader.css";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import axios from "axios";
-import { RingLoader } from 'react-spinners';
+import { RingLoader } from "react-spinners";
 
 export default function LoadingPage() {
   const [isLoading, setLoading] = useState(true);
@@ -28,24 +28,22 @@ export default function LoadingPage() {
 
   if (isLoading) {
     return (
-      <div className='sweet-loading'>
-        <RingLoader
-          color={'#123abc'} 
-        />
+      <div className="sweet-loading">
+        <RingLoader color={"#123abc"} />
       </div>
     );
   }
 
   return (
-    <div className="Quote">
-      <div className="Header">
-        <blockquote className="blockquote text-center text-success">
-          <li key={quotes._id}>
-            <p>"{quotes.content}"</p>
-            <footer className="blockquote-footer">- {quotes.author}</footer>
-          </li>
-        </blockquote>
+      <div className="Quote">
+        <div className="Header">
+          <blockquote className="blockquote text-center text-success">
+            <li key={quotes._id}>
+              <p>"{quotes.content}"</p>
+              <footer className="blockquote-footer">- {quotes.author}</footer>
+            </li>
+          </blockquote>
+        </div>
       </div>
-    </div>
   );
 }

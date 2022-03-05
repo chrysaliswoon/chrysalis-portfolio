@@ -7,7 +7,7 @@ export default function ParticlesBackground() {
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
       };
     
-      const particlesLoaded = (container) => {
+      const particlesLoaded = (container, event) => {
         console.log(container);
       };
 
