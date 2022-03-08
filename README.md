@@ -39,8 +39,9 @@ Your step by step planning sketch of your project, that you can post them as an 
 
 ### User Stories
 
-```
+
 ![User Persona](https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/userPersona.png?raw=true)
+
 
 ---
 
