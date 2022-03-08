@@ -1,22 +1,41 @@
-import "./NavBar.css"
+import "./NavBar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Button from "../../Components/Button/Button";
 
-export default function NavBar(){
-    return(
-        <div className="NavBar">
-        <AnchorLink href="#AboutMe">
-          <Button name="About" />
-        </AnchorLink>
-        <AnchorLink href="#Experience">
-          <Button name="Experience" />
-        </AnchorLink>
-        <AnchorLink href="#Projects">
-          <Button name="Projects" />
-        </AnchorLink>
-        <AnchorLink href="#Contact">
-          <Button name="Contact" />
-        </AnchorLink>
+export default function NavBar() {
+
+  return (
+    <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div className="container">
+        <div className="navbar-header">
+          <div
+            className="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul className="nav navbar-nav">
+              <AnchorLink href="#AboutMe">
+                <li className="navlist">
+                  <span className="hoverAbout">About</span>
+                </li>
+              </AnchorLink>
+              <AnchorLink href="#Experience">
+                <li className="navlist">
+                  <span className="hoverExperience">Experience</span>
+                </li>
+              </AnchorLink>
+              <AnchorLink href="#Projects">
+                <li className="navlist">
+                  <span className="hoverProjects">Projects</span>
+                </li>
+              </AnchorLink>
+              <AnchorLink href="#Contact">
+                <li className="navlist">
+                <span className="hoverContact">Contact</span>
+                </li>
+              </AnchorLink>
+            </ul>
+          </div>
+        </div>
       </div>
-    )
+    </nav>
+  );
 }

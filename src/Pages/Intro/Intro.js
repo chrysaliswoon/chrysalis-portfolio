@@ -10,7 +10,7 @@ export default function Introduction() {
 
   return (
     <div className="bg text-center">
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> */}
       <div className="centered">
         <h1 className="firstLine">WELCOME!</h1>
         <p className="secondLine">

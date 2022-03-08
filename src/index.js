@@ -6,12 +6,13 @@ import HomePage from "./Pages/HomePage/homePage";
 import LoadingPage from './Pages/Loader/Loader'
 import Introduction from "./Pages/Intro/Intro";
 import WelcomeUser from "./Pages/Welcome/WelcomeUser";
+import ParticlesBackground from "./Components/Particles/Particles";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Introduction />} />
+        <Route path='/' element={<ParticlesBackground > <Introduction /> </ParticlesBackground>}  />
         <Route path='/welcome' element={<WelcomeUser />} />
         <Route path='/loading' element={<LoadingPage />} />
         <Route path='/home' element={<HomePage />} />

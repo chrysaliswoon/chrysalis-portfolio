@@ -7,7 +7,7 @@ import NavBar from "../../Components/NavigationBar/NavBar";
 import Introduction from "../../Components/Introduction/Introduction";
 
 export default function Website() {
-  console.log(process.env.REACT_APP_LOAD_INTRO)
+  // console.log(process.env.REACT_APP_LOAD_INTRO)
 
   
   return (

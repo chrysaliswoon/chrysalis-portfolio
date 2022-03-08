@@ -3,7 +3,10 @@
     background: lightblue
 }
 
+ul {
+    list-style-type: none;
+}
+
 li {
     padding: 5px;
-    list-style-type: none;
 }

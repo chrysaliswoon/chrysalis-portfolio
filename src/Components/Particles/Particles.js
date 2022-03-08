@@ -1,6 +1,6 @@
 import Particles from "react-tsparticles";
 
-export default function ParticlesBackground() {
+export default function ParticlesBackground({children}) {
     const particlesInit = (main) => {
         console.log(main);
     
@@ -12,6 +12,7 @@ export default function ParticlesBackground() {
       };
 
     return (
+      <>
         <Particles
       id="tsparticles"
       init={particlesInit}
@@ -94,5 +95,7 @@ export default function ParticlesBackground() {
         detectRetina: true,
       }}
     />
+    {children}
+    </>
   );
 };

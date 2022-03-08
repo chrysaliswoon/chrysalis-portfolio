@@ -1,7 +1,40 @@
-.NavBar {
-    position: absolute;
-    width: 875px;
-    height: 116px;
-    left: 840px;
-    top: 20px;
-  }
+.navbar-inverse {
+  background: #222B31;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navlist {
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  padding: 16px;
+  font: 500 11px;
+  color: #a3bfc6;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+}
+
+.hoverAbout:hover {
+  color: #FFF;
+}
+
+.hoverExperience:hover  {
+  color: #FFF;
+}
+
+.hoverProjects:hover {
+  color: #FFF;
+}
+
+.hoverContact:hover {
+  color: #FFF;
+}
