@@ -37,7 +37,10 @@ For this project, I used the following technologies:
 
 For my wireframe, I used Figma to create an initial skeleton of what it will look like:
 
-![Wireframe Part 1]()
+![Wireframe Part 1](https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/Wireframe.png?raw=true)
+
+Afterwards, I then created a prototype using the initial wireframe as the baseline. You may view the wireframe here: https://www.figma.com/file/4JNzFNUO03sj0ErejCZmB3/Portfolio-Website-V2?node-id=0%3A1
+
 
 ### User Stories
 
