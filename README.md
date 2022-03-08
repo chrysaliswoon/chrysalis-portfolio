@@ -39,7 +39,7 @@ For my wireframe, I used Figma to create an initial skeleton of what it will loo
 
 ![Wireframe Part 1](https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/Wireframe.png?raw=true)
 
-Afterwards, I then created a prototype using the initial wireframe as the baseline. You may view the wireframe here: https://www.figma.com/file/4JNzFNUO03sj0ErejCZmB3/Portfolio-Website-V2?node-id=0%3A1
+Afterwards, I then created a prototype using the initial wireframe as the baseline. You may view the wireframe ![here]: (https://www.figma.com/file/4JNzFNUO03sj0ErejCZmB3/Portfolio-Website-V2?node-id=0%3A1)
 
 
 ### User Stories
@@ -74,7 +74,7 @@ We had approximately 3 weeks from ideation to creation to develop our web applic
 
 9. Fixed the links for github and live site under ""Explore My Work""
 
-10. Using React Router to control which job experiences description appear when users click on it [In Progress..]"
+10. Using React Router to control which job experiences description appear when users click on it
 
 **Week 2**
 
