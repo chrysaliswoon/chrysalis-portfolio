@@ -35,7 +35,9 @@ For this project, I used the following technologies:
 
 ### Wireframes
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F4JNzFNUO03sj0ErejCZmB3%2FPortfolio-Website-V2%3Fnode-id%3D55%253A86" allowfullscreen></iframe>
+For my wireframe, I used Figma to create an initial skeleton of what it will look like:
+
+![Wireframe Part 1]()
 
 ### User Stories
 
