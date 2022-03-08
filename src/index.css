@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
+
 h1 {
   font-family: 'Bowlby One SC';
   font-style: normal;
@@ -21,14 +22,3 @@ h1 {
   color: #936E9E;
 }
 
-li {
-  list-style-type: none;
- }
-
-
-/* Social Icons */
-
-img {
-  height: 50px;
-  width: 50px;
-}

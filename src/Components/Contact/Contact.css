@@ -1,0 +1,14 @@
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.socialIcons {
+    list-style-type: none;
+    position: relative;
+    align-items: center;
+}
+
+.ContactForm {
+    padding: 30px;
+}
