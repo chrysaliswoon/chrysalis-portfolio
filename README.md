@@ -39,7 +39,7 @@ For my wireframe, I used Figma to create an initial skeleton of what it will loo
 
 ![Wireframe Part 1](https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/Wireframe.png?raw=true)
 
-Afterwards, I then created a prototype using the initial wireframe as the baseline. You may view the wireframe ![here](https://www.figma.com/file/4JNzFNUO03sj0ErejCZmB3/Portfolio-Website-V2?node-id=0%3A1)
+Afterwards, I then created a prototype using the initial wireframe as the baseline. You may view the complete wireframe [here](https://www.figma.com/file/4JNzFNUO03sj0ErejCZmB3/Portfolio-Website-V2?node-id=0%3A1)
 
 
 ### User Stories
@@ -107,6 +107,7 @@ User inputs name --> Welcome {user input} --> Motivational Quote (Loading screen
 
 **Week 3**
 
+1. 
 
 ### Problem-Solving Strategy
 
@@ -118,7 +119,7 @@ As my intention is for my peers and other users to be able to fork this and edit
 
 ### Unsolved problems
 
-List unsolved problems which would be fixed in future iterations.
+Currently the website is structured to be in separate routes to fulfill the above project requirements. However, ideally all of the component pages will be under one main component page with only one route.
 
 ## APIs Used
 
