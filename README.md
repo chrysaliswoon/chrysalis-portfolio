@@ -40,17 +40,7 @@ Your step by step planning sketch of your project, that you can post them as an 
 ### User Stories
 
 ```
-Example:
-
-User must be able to:
-
-- View Example
-- Blablabla
-- Search Example
-- Fine Example
-- etc..
-
-```
+![User Persona](https://github.com/chrysaliswoon/chrysalis-portfolio/blob/main/src/Image%20Assets/userPersona.png?raw=true)
 
 ---
 
@@ -106,7 +96,7 @@ We had approximately 3 weeks from ideation to creation to develop our web applic
 
 12. Created the flow from Loader page --> Homepage:  3 seconds after it lands on the motivational quote page, it will go to the homepage
 
-13. - Welcomes the user after the user inputs their name and clicks on the button so the flow will be:
+13. Welcomes the user after the user inputs their name and clicks on the button so the flow will be:
 User inputs name --> Welcome {user input} --> Motivational Quote (Loading screen) --> Homepage
 
 **Week 3**
@@ -127,6 +117,7 @@ List unsolved problems which would be fixed in future iterations.
 ## APIs Used
 
 - [Github API](https://docs.github.com/en/rest)
+- [Motivational Quote API](https://api.quotable.io/random)
 
 ---
 
