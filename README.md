@@ -82,6 +82,33 @@ We had approximately 3 weeks from ideation to creation to develop our web applic
 
 **Week 2**
 
+1. Used React Router so users can navigate between various components
+
+2. Rendered the Experiences portion of the homepage
+
+3. Created a Contact Me form by embedding Paperform
+
+4. Removed Link routes for Experiences component page
+
+5. Create child components for Experiences parent component
+
+6. Used React Anchor Link Smooth Scroll so when the user clicks on the links in the navigation bar, it should move down to the correct pagel: https://www.npmjs.com/package/react-anchor-link-smooth-scroll 
+
+7. Cleaned up my files and codes so it's readable and easily accesible
+
+8. Used state to change which job description will show depending on which company is clicked
+
+9. Render the first object in the job experience array instead of it showing empty and remove the | beside the job title
+
+10. Created the Welcome page which will get a random motivational quote from a Motivational Quote API
+
+11. Created the flow from Welcome page --> Loader page: After it welcomes the user, it will wait for 1 second before going to the Motivational quote page.
+
+12. Created the flow from Loader page --> Homepage:  3 seconds after it lands on the motivational quote page, it will go to the homepage
+
+13. - Welcomes the user after the user inputs their name and clicks on the button so the flow will be:
+User inputs name --> Welcome {user input} --> Motivational Quote (Loading screen) --> Homepage
+
 **Week 3**
 
 
