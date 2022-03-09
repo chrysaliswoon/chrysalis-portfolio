@@ -13,7 +13,7 @@ export default function LoadingPage() {
     const timer = setTimeout(() => {
       // console.log('1 second passed')
       navigate("/home");
-    }, 3000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -39,7 +39,7 @@ export default function LoadingPage() {
         <div className="Header">
           <blockquote className="blockquote text-center text-success">
             <li key={quotes._id}>
-              <p>"{quotes.content}"</p>
+              {quotes.content}
               <footer className="blockquote-footer">- {quotes.author}</footer>
             </li>
           </blockquote>
