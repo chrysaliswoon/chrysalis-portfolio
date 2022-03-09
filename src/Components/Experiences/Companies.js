@@ -8,11 +8,11 @@ export default function Companies({experiences, handleClick}) {
   // }
 
   return (
-    <div >
+    <div className="companyList">
       {experiences.map(experience => 
         <li key={experience.id}>
-          <a onClick={() => handleClick(experience)} style={{ cursor: "pointer" }}>
-            <p>{experience.company}</p>
+          <a className="jobs" onClick={() => handleClick(experience)} style={{ cursor: "pointer" }}>
+            {experience.company}
           </a>
         </li>
       )}

@@ -5,11 +5,11 @@ import ContactForm from "./ContactForm";
 export default function Contact() {
   return (
     <div className="Contact">
-      <h1>Get In Touch</h1>
-      <div className="MainDescription">
+      <h1 className="ContactTitle">Get In Touch</h1>
+      <div className="SocialDescription">
         <p>Follow me on my social media or drop me an email!</p>
       </div>
-      <ul className="SocialIcons">
+      <ul className="socialList">
         <li className="socialIcons">
           <a href="https://www.linkedin.com/in/chrysalis-woon-38376198/">
             <img

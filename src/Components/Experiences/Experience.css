@@ -1,12 +1,11 @@
 
-.Experience a:hover, a:active {
-    background: lightblue
-}
 
-ul {
+.experienceList {
     list-style-type: none;
+    padding: 10px;
 }
 
-li {
-    padding: 5px;
+.experienceDescription {
+    padding: 10px;
+    line-height: 30px;
 }

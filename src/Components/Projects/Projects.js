@@ -24,7 +24,7 @@ export default function Work() {
 
   const renderProject = (project, id) => {
     return (
-      <Card style={{ width: "18rem" }} key={project.id} className="box">
+      <Card style={{ width: "20rem" }} key={project.id} className="box">
         <Card.Body>
           <Card.Title>{project.name}</Card.Title>
           <Card.Text>{project.description}</Card.Text>

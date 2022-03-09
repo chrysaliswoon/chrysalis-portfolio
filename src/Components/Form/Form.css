@@ -27,7 +27,7 @@ input:focus {
     border: none;
     outline: 0;
     -webkit-appearance: none;
-    box-shadow: nones;
+    box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none
 }

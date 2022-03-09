@@ -5,6 +5,7 @@ import Work from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
 import NavBar from "../../Components/NavigationBar/NavBar";
 import Introduction from "../../Components/Introduction/Introduction";
+import Footer from "../../Components/Footer/Footer"
 // import SimpleForm from "../../Components/ChatBot/Chatbot";
 
 export default function Website() {
@@ -41,6 +42,9 @@ export default function Website() {
       <section id="Contact">
         <Contact />
         {/* <SimpleForm /> */}
+      </section>
+      <section id="Footer">
+      <Footer />
       </section>
     </>
   );

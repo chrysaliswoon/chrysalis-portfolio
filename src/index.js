@@ -16,7 +16,7 @@ ReactDOM.render(
         <Route path='/' element={<ParticlesBackground > <Introduction /> </ParticlesBackground>}  />
         <Route path='/welcome' element={<WelcomeUser />} />
         <Route path='/loading' element={<LoadingPage />} />
-        <Route path='/home' element={<HomePage />} />
+        <Route path='/home' element={ <HomePage />}/>
           <Route path="*" element={<main style={{padding: '1rem'}}>
             <p>404: Not Found</p>
             </main>

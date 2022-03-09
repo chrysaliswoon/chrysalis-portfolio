@@ -1,13 +1,13 @@
 .button {
     background-color: transparent;
-    border: 1px solid #266DB6;
-    box-sizing: border-box;
+    /* border: 1px solid #266DB6;
+    box-sizing: border-box; */
     color: #00132C;
     font-family: "Avenir Next LT W01 Bold",sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    padding: 16px 23px;
+    padding: 16px 20px;
     position: relative;
     text-decoration: none;
     user-select: none;
@@ -38,11 +38,11 @@
   }
   
   .button:hover:before {
-    background-color: #6DCFF6;
+    color: white;
   }
   
   @media (min-width: 768px) {
     .button {
-      padding: 16px 32px;
+      padding: 16px 20px;
     }
   }
