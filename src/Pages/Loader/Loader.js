@@ -36,14 +36,14 @@ export default function LoadingPage() {
 
   return (
       <div className="Quote">
-        <div className="Header">
-          <blockquote className="blockquote text-center text-success">
+        <article className="Header">
+          <blockquote>
             <li key={quotes._id}>
-              {quotes.content}
-              <footer className="blockquote-footer">- {quotes.author}</footer>
-            </li>
+              <strong><em>{quotes.content}</em></strong>
+              </li>
           </blockquote>
-        </div>
+              <b>{quotes.author}</b>
+        </article>
       </div>
   );
 }
