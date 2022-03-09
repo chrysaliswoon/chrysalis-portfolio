@@ -36,7 +36,7 @@ export default function LoadingPage() {
 
   return (
       <div className="Quote">
-        <article className="Header">
+        <article className="QuoteHeader">
           <blockquote>
             <li key={quotes._id}>
               <strong><em>{quotes.content}</em></strong>

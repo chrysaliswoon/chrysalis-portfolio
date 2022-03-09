@@ -5,6 +5,7 @@ import Work from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
 import NavBar from "../../Components/NavigationBar/NavBar";
 import Introduction from "../../Components/Introduction/Introduction";
+// import SimpleForm from "../../Components/ChatBot/Chatbot";
 
 export default function Website() {
   // console.log(process.env.REACT_APP_LOAD_INTRO)
@@ -39,6 +40,7 @@ export default function Website() {
       {/* Contact Page Section  */}
       <section id="Contact">
         <Contact />
+        {/* <SimpleForm /> */}
       </section>
     </>
   );

@@ -47,10 +47,16 @@
 }
 
 
-.Header {
+.QuoteHeader {
   width: 590px;
   margin: 140px auto;
   position: relative;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #936E9E;
 }
 
 blockquote {
@@ -66,7 +72,7 @@ blockquote {
   -moz-transform: rotate(-3deg);
 }
 
-.Header:before {
+.QuoteHeader:before {
   content: "“";
   font-size: 13em;
   position: absolute;
@@ -75,7 +81,7 @@ blockquote {
   color: #666;
 }
 
-.Header:after {
+.QuoteHeader:after {
   content: "”";
   font-size: 13em;
   position: absolute;
