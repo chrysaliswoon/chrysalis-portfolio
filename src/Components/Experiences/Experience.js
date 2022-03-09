@@ -19,7 +19,7 @@ export default function Experiences() {
     <div className="Experience">
       <h1>My Journey</h1>
       <div className="Header">
-        <p>A Brief History of My Work</p>
+        A Brief History of My Work
       </div>
 
       <div style={{ display: "flex" }}>

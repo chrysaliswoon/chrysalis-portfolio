@@ -3,7 +3,7 @@ export default function AboutMe() {
       <div className="AboutMe">
           <h1>About Me</h1>
         <div className="Header">
-          <p>Connecting the dots between Art, Science and Technology</p>
+          Connecting the dots between Art, Science and Technology
         </div>
         <div className="MainDescription">
           <p>Hey there! Glad you could stop by. My name is Chrysalis or Chrys (pronounced as Chris) for short.</p>

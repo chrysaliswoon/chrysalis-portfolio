@@ -1,40 +1,48 @@
-.navbar-inverse {
-  background: #222B31;
+.navigation {
+  background-color: #333;
 }
 
-.nav {
+
+.navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.navlist {
   float: right;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  padding: 16px;
-  font: 500 11px;
-  color: #a3bfc6;
-  text-transform: uppercase;
-  position: relative;
-  z-index: 1000;
 }
 
-.hoverAbout:hover {
-  color: #FFF;
+.about {
+  float: left;
+  padding: 30px;
 }
 
-.hoverExperience:hover  {
-  color: #FFF;
+.about:hover:not(.active) {
+  background-color: #111;
 }
 
-.hoverProjects:hover {
-  color: #FFF;
+.experience {
+  float: left;
+  padding: 30px;
 }
 
-.hoverContact:hover {
-  color: #FFF;
+.experience:hover:not(.active) {
+  background-color: #111;
+}
+
+.projects {
+  float: left;
+  padding: 30px;
+}
+
+.projects:hover:not(.active) {
+  background-color: #111;
+}
+
+.contact {
+  float: left;
+  padding: 30px;
+}
+
+.contact:hover:not(.active) {
+  background-color: #111;
 }

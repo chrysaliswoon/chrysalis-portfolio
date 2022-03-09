@@ -9,20 +9,17 @@ import Introduction from "../../Components/Introduction/Introduction";
 export default function Website() {
   // console.log(process.env.REACT_APP_LOAD_INTRO)
 
-  
   return (
     // Top Navigation Bar Section //
-    <div className="HomePage">
-      <section id="HomePage">
+    <>
+      <nav id="Navigation">
         <NavBar />
-      </section>
+      </nav>
 
       {/* Main Page Section */}
-      <div className="MainPage">
-        <section id="Introduction">
-          <Introduction />
-        </section>
-      </div>
+      <section id="Introduction">
+        <Introduction />
+      </section>
 
       {/* About Me Page Section */}
       <section id="AboutMe">
@@ -35,7 +32,7 @@ export default function Website() {
       </section>
 
       {/* My Projects Page Section */}
-      <section id="Projects">
+      <section id="Work">
         <Work />
       </section>
 
@@ -43,6 +40,6 @@ export default function Website() {
       <section id="Contact">
         <Contact />
       </section>
-    </div>
+    </>
   );
 }

@@ -4,11 +4,18 @@ img {
 }
 
 .socialIcons {
-    list-style-type: none;
-    position: relative;
-    align-items: center;
+    float: left;
+    padding: 20px;
 }
 
 .ContactForm {
     padding: 30px;
+}
+
+.SocialIcons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: center;
 }

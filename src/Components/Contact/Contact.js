@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="MainDescription">
         <p>Follow me on my social media or drop me an email!</p>
       </div>
-      <div className="SocialIcons">
+      <ul className="SocialIcons">
         <li className="socialIcons">
           <a href="https://www.linkedin.com/in/chrysalis-woon-38376198/">
             <img
@@ -42,7 +42,7 @@ export default function Contact() {
             ></img>
           </a>
         </li>
-      </div>
+      </ul>
       <div className="ContactForm">
         <ContactForm formSlug="chrysaliswoon" />
       </div>

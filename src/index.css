@@ -1,7 +1,7 @@
 /* Font CSS */
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
 
 h1 {
   font-family: 'Bowlby One SC';
@@ -13,6 +13,12 @@ h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+p {
+  font-family: 'Palanquin', sans-serif;
+  line-height: 36px;
+  font-size: 20px;
+}
+
 .Header {
   font-family: 'Kanit';
   font-style: normal;
@@ -21,4 +27,5 @@ h1 {
   line-height: 45px;
   color: #936E9E;
 }
+
 

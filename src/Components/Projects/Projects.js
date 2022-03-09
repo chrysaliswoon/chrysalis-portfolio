@@ -22,7 +22,7 @@ export default function Work() {
       <div className="Work">
           <h1>Projects</h1>
         <div className="Header">
-          <p>Explore My Work</p>
+          Explore My Work
         </div>
 
         <div className="MainDescription">
