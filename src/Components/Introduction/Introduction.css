@@ -1,0 +1,25 @@
+.IntroDescription {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 500px 1fr;
+    /* gap: 1rem; */
+    align-items: center;
+    max-width: 800px;
+    margin: 10px;
+  }
+
+.Profile {
+    width:100px; 
+    height:100px;
+    padding-left: 80px;
+    margin-top: -200px;
+}
+
+.Connect {
+    margin: 30px;
+    font-style: bold;
+}
+
+.ButtonContact {
+    margin: 30px;
+}

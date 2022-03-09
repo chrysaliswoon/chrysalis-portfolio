@@ -16,7 +16,7 @@ export default function Introduction() {
         <p className="secondLine">
           Glad you could stop by! How do I address you?
         </p>
-        <div className="bottom">
+        <div className="form">
           <Form name={name} setName={setName} />
           <button
             className="btn"
@@ -25,8 +25,10 @@ export default function Introduction() {
             Submit
           </button>
         </div>
-        <br />
-        <p><i>This information will not be recorded, and is for entertainment purposes.</i></p>
+        <div className="disclaimer">
+            This information will not be recorded, and is for entertainment
+            purposes.
+        </div>
       </div>
     </div>
   );
