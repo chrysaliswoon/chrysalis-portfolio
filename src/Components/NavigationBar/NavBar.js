@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function NavBar() {
   return (
-    <div class="navigation">
+    <div className="navigation">
       <ul className="navList">
         <AnchorLink href="#AboutMe">
           <li className="about">About</li>
