@@ -1,4 +1,4 @@
-import styles from "./homePage.css";
+import homeStyle from "./homePage.module.css"
 import AboutMe from "../../Components/AboutMe/AboutMe";
 import Experience from "../../Components/Experiences/Experience";
 import Work from "../../Components/Projects/Projects";
@@ -14,32 +14,32 @@ export default function Website() {
   return (
     // Top Navigation Bar Section //
     <div>
-    <div className={styles}>
+    <div className={homeStyle.background}>
 
       {/* <Parallax pages = {4}>
       <ParallaxLayer sticky={{start: 0, end: 4.5}}> */}
-      <nav id="Navigation"><NavBar /></nav>
+      <nav id={homeStyle.Navigation}><NavBar /></nav>
       {/* </ParallaxLayer>
 
         <ParallaxLayer offset={0} speed={0.5}> */}
-        <section id="Introduction"><Introduction /></section>
+        <section id={homeStyle.Introduction}><Introduction /></section>
       {/* </ParallaxLayer>
 
       <ParallaxLayer offset={1} speed={0.5}> */}
-        <section id="AboutMe"><AboutMe /></section>
+        <section id={homeStyle.AboutMe}><AboutMe /></section>
       {/* </ParallaxLayer>
 
       <ParallaxLayer offset={2} speed={0.5}> */}
-        <section id="Experience"><Experience /></section>
+        <section id={homeStyle.Experience}><Experience /></section>
       {/* </ParallaxLayer>
 
       <ParallaxLayer offset={3} speed={0.5}> */}
-        <section id="Work"><Work /></section>
+        <section id={homeStyle.Work}><Work /></section>
       {/* </ParallaxLayer>
 
       <ParallaxLayer sticky={{start: 4, end: 4}}> */}
-    <section id="Contact"><Contact /></section>
-    <section id="Footer"><Footer /></section>
+    <section id={homeStyle.Contact}><Contact /></section>
+    <section id={homeStyle.Footer}><Footer /></section>
       {/* </ParallaxLayer>
       </Parallax> */}
     </div>

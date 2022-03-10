@@ -7,10 +7,12 @@ export default function Description({details}) {
             {details.map(description => 
                 <div key = {description.id}>
                         <h3>{description.jobTitle} {description.company}</h3>
-                        <li>{description.duration}</li>
+                        <p>{description.duration}</p>
+                        <ul>
                         <li>{description.point1}</li>
                         <li>{description.point2}</li>
                         <li>{description.point3}</li>
+                        </ul>
                 </div>
             )}
     </div>
