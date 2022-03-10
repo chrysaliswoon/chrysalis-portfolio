@@ -1,4 +1,4 @@
-export const social = [
+const social = [
     {
         id: 0,
         url: "https://www.linkedin.com/in/chrysalis-woon-38376198/",
@@ -32,3 +32,6 @@ export const social = [
         alt:"Email Logo",
     },
 ]
+
+
+export default social
