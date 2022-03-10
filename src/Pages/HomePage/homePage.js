@@ -3,7 +3,7 @@ import AboutMe from "../../Components/AboutMe/AboutMe";
 import Experience from "../../Components/Experiences/Experience";
 import Work from "../../Components/Projects/projects";
 import Contact from "../../Components/Contact/Contact";
-import NavBar from "../../Components/NavigationBar/NavBar";
+import NavBar from "../../Components/NavigationBar/navigation";
 import Introduction from "../../Components/Introduction/Introduction";
 import Footer from "../../Components/Footer/Footer";
 

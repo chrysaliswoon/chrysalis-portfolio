@@ -2,7 +2,6 @@
   background-color: #333;
 }
 
-
 .navList {
   list-style-type: none;
   margin: 0;
@@ -17,7 +16,7 @@
 }
 
 .about:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(191, 191, 214);
 }
 
 .experience {
@@ -26,7 +25,7 @@
 }
 
 .experience:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(191, 191, 214);
 }
 
 .projects {
@@ -35,7 +34,7 @@
 }
 
 .projects:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(191, 191, 214);
 }
 
 .contact {
@@ -44,5 +43,5 @@
 }
 
 .contact:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(191, 191, 214);
 }
