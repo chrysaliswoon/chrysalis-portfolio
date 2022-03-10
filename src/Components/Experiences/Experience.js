@@ -1,6 +1,6 @@
 import "./Experience.css";
 import React, { useState } from "react";
-import { jobExperience, intialJob } from "../../Data/Data";
+import { jobExperience, intialJob } from "../../Data/jobData";
 import Description from "./ExperienceDesc";
 import Companies from "./Companies";
 

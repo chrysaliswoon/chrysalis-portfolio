@@ -1,6 +1,6 @@
 export const intialJob = [
     {
-        id: 2001,
+        id: 0,
         jobTitle:"Instructional Team",
         duration:"Nov 2021 - Present",
         company:"Kodecoon Academy", 
@@ -13,7 +13,7 @@ export const intialJob = [
 
 export const jobExperience = [
             {
-                id: 2001,
+                id: 1,
                 jobTitle:"Instructional Team",
                 duration:"Nov 2021 - Present",
                 company:"Kodecoon Academy", 
@@ -23,7 +23,7 @@ export const jobExperience = [
                 point3:""
             },
             {
-                id: 2018,
+                id: 2,
                 jobTitle:"Product Team",
                 duration:"Feb 2018 - Nov 2021",
                 company: "Saturday Kids",
@@ -33,7 +33,7 @@ export const jobExperience = [
                 point3:"Developed an internal ATS system to streamline and automate 60% of the HR process using Airtable."
             },
             {
-                id: 2015, 
+                id: 3, 
                 jobTitle:"Special Projects",
                 duration:"May 2015 - Feb 2016",
                 company:"Glints",

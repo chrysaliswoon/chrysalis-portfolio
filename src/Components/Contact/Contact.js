@@ -1,6 +1,7 @@
 import "./Contact.css";
 import React from "react";
 import ContactForm from "./ContactForm";
+import social from '../../Data/contactData'
 
 export default function Contact() {
   return (
