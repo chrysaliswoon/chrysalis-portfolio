@@ -3,9 +3,6 @@ import React from 'react'
 
 export default function Companies({experiences, handleClick}) {
 
-  // function handleClick() {
-  //   console.log("Clicked");
-  // }
 
   return (
     <div className="companyList">

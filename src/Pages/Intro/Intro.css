@@ -1,29 +1,29 @@
-.bg {
+/* .bg {
     width: 100%;
     height: auto;
     min-height: 100vh;
     background-size: 100% 100%;
     background-position: top center
-}
+} */
 
-.content {
+/* .content {
     margin-top: 20%;
-}
+} */
 
-.centered {
+/* .centered {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
 
-.form{
+/* .form{
     padding: 70px;
     margin-top: -50px;
     text-align: center;
-}
+} */
 
-.secondLine {
+/* .secondLine {
     text-align: center;
     font-weight: 350;
     font-size: 20px;
@@ -31,13 +31,13 @@
     color: white;
     line-height: 50px;
     margin: -1%;
-}
+} */
 
-.firstLine {
+/* .firstLine {
     text-align: center;
     font-size: 30px;
     color: white;
-}
+} */
 
 .disclaimer {
     font-style: italic;
@@ -53,7 +53,7 @@
     }
 }
 
-.btn {
+/* .btn {
     cursor: pointer;
     font-size: 15px;
     font-weight: 900;
@@ -67,4 +67,4 @@
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
-}
+} */
