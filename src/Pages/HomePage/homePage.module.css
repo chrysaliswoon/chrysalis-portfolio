@@ -3,31 +3,35 @@
     background: linear-gradient(#DAE2F8, #D6A4A4);
 }
 
-.Introduction {
-    padding: 500px;
+.navigation {
+    padding-top: 5px;
+}
+
+.introduction {
+    padding: 100px;
     margin: 200px;
     background-color:rgba(255, 255, 255, .4)  
 }
 
-.AboutMe {
-    padding: 500px;
+.aboutMe {
+    padding: 200px;
     margin: 200px;
     background-color:rgba(255, 255, 255, .4)  
 }
 
-.Experience {
-    padding: 500px;
+.experience {
+    padding: 200px;
     margin: 200px;
     background-color:rgba(255, 255, 255, .4)  
 }
 
-.Work {
-    padding: 500px;
+.work {
+    padding: 200px;
     margin: 200px;
     background-color:rgba(255, 255, 255, .4)  
 }
 
-.Contact {
+.contact {
     padding: 50px;
     margin: 200px;
     background-color:rgba(255, 255, 255, .4)  
