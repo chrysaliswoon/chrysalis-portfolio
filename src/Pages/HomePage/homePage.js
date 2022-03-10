@@ -1,5 +1,5 @@
 import homeStyle from "./homePage.module.css";
-import AboutMe from "../../Components/AboutMe/AboutMe";
+import About from "../../Components/AboutMe/About";
 import Experience from "../../Components/Experiences/Experience";
 import Work from "../../Components/Projects/projects";
 import Contact from "../../Components/Contact/Contact";
@@ -23,7 +23,7 @@ export default function Website() {
         </div>
         <div className={homeStyle.aboutMe}>
           <section id="AboutMe">
-            <AboutMe />
+            <About />
           </section>
         </div>
         <div className={homeStyle.experience}>
