@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage/homePage";
 import LoadingPage from './Pages/Loader/Loader'
 import Introduction from "./Pages/Intro/Intro";
-import WelcomeUser from "./Pages/Welcome/WelcomeUser";
+import WelcomeUser from "./Pages/Welcome/welcome";
 import ParticlesBackground from "./Components/Particles/Particles";
 
 
