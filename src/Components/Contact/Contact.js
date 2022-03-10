@@ -1,4 +1,3 @@
-import "./Contact.css";
 import socialStyle from "./contact.module.css"
 import React from "react";
 import ContactForm from "./ContactForm";
