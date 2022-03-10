@@ -14,15 +14,15 @@ export default function Website() {
   return (
     // Top Navigation Bar Section //
     <div>
-    <div className={styles.background}>
+    <div className={styles}>
 
-      <Parallax pages = {5}>
-        <ParallaxLayer offset={0} speed={0.5}>
-        <section id="Introduction"><Introduction /></section>
+      <Parallax pages = {4}>
+      <ParallaxLayer sticky={{start: 0, end: 4.5}}>
+      <nav id="Navigation"><NavBar /></nav>
       </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 0, end: 5}}>
-      <nav id="Navigation"><NavBar /></nav>
+        <ParallaxLayer offset={0} speed={0.5}>
+        <section id="Introduction"><Introduction /></section>
       </ParallaxLayer>
 
       <ParallaxLayer offset={1.0} speed={0.5}>
@@ -37,8 +37,9 @@ export default function Website() {
         <section id="Work"><Work /></section>
       </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 4, end: 3}}>
+      <ParallaxLayer sticky={{start: 4, end: 4}}>
     <section id="Contact"><Contact /></section>
+    <section id="Footer"><Footer /></section>
       </ParallaxLayer>
       </Parallax>
     </div>
