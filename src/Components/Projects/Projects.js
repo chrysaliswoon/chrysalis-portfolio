@@ -1,4 +1,4 @@
-import "./Projects.css";
+import projectStyle from "./projects.module.css"
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Button from "../Button/Button";
@@ -19,12 +19,12 @@ export default function Work() {
   }, []);
 
   if (isLoading) {
-    return <div className="Project">Loading...</div>;
+    return <div className={projectStyle.project}>Loading...</div>;
   }
 
   const renderProject = (project, id) => {
     return (
-      <Card style={{ width: "20rem" }} key={project.id} className="box">
+      <Card style={{ width: "20rem" }} key={project.id} className={projectStyle.card}>
         <Card.Body>
           <Card.Title>{project.name}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
@@ -45,7 +45,7 @@ export default function Work() {
       <div className="Header">Explore My Work</div>
       <div className="MainDescription"></div>
 
-      <div className="ProjectList">{project.map(renderProject)}</div>
+      <div className={projectStyle.projectList}>{project.map(renderProject)}</div>
     </div>
   );
 }
