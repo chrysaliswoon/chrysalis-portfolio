@@ -25,15 +25,15 @@ export default function Website() {
         <section id="Introduction"><Introduction /></section>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={1.0} speed={0.5}>
+      <ParallaxLayer offset={1} speed={0.5}>
         <section id="AboutMe"><AboutMe /></section>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={2.0} speed={0.5}>
+      <ParallaxLayer offset={2} speed={0.5}>
         <section id="Experience"><Experience /></section>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={3.0} speed={0.5}>
+      <ParallaxLayer offset={3} speed={0.5}>
         <section id="Work"><Work /></section>
       </ParallaxLayer>
 
