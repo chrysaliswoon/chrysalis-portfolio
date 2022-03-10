@@ -1,24 +1,24 @@
-.IntroDescription {
+.introDesc {
     display: grid;
     padding: 1rem;
-    grid-template-columns: 500px 1fr;
+    grid-template-columns: 700px 100px;
     align-items: center;
-    max-width: 800px;
+    max-width: 100px;
     margin: 10px;
   }
 
-.Profile {
+.profile {
     width:100px; 
     height:100px;
-    padding-left: 80px;
+    padding-left: 10px;
     margin-top: -200px;
 }
 
-.Connect {
+.connect {
     margin: 30px;
     font-style: bold;
 }
 
-.ButtonContact {
+.buttonContact {
     margin: 30px;
 }
