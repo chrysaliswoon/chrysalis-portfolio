@@ -23,6 +23,7 @@
   .button:hover {
     background-color: transparent;
     cursor: pointer;
+    color: white;
   }
   
   .button:before {

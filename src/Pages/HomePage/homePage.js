@@ -16,32 +16,32 @@ export default function Website() {
     <div>
     <div className={styles}>
 
-      <Parallax pages = {4}>
-      <ParallaxLayer sticky={{start: 0, end: 4.5}}>
+      {/* <Parallax pages = {4}>
+      <ParallaxLayer sticky={{start: 0, end: 4.5}}> */}
       <nav id="Navigation"><NavBar /></nav>
-      </ParallaxLayer>
+      {/* </ParallaxLayer>
 
-        <ParallaxLayer offset={0} speed={0.5}>
+        <ParallaxLayer offset={0} speed={0.5}> */}
         <section id="Introduction"><Introduction /></section>
-      </ParallaxLayer>
+      {/* </ParallaxLayer>
 
-      <ParallaxLayer offset={1} speed={0.5}>
+      <ParallaxLayer offset={1} speed={0.5}> */}
         <section id="AboutMe"><AboutMe /></section>
-      </ParallaxLayer>
+      {/* </ParallaxLayer>
 
-      <ParallaxLayer offset={2} speed={0.5}>
+      <ParallaxLayer offset={2} speed={0.5}> */}
         <section id="Experience"><Experience /></section>
-      </ParallaxLayer>
+      {/* </ParallaxLayer>
 
-      <ParallaxLayer offset={3} speed={0.5}>
+      <ParallaxLayer offset={3} speed={0.5}> */}
         <section id="Work"><Work /></section>
-      </ParallaxLayer>
+      {/* </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 4, end: 4}}>
+      <ParallaxLayer sticky={{start: 4, end: 4}}> */}
     <section id="Contact"><Contact /></section>
     <section id="Footer"><Footer /></section>
-      </ParallaxLayer>
-      </Parallax>
+      {/* </ParallaxLayer>
+      </Parallax> */}
     </div>
     </div>
   );
