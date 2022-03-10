@@ -1,4 +1,5 @@
 import "./Contact.css";
+import socialStyle from "./contact.module.css"
 import React from "react";
 import ContactForm from "./ContactForm";
 import social from "../../Data/contactData";
@@ -7,13 +8,13 @@ export default function Contact() {
 
   return (
     <div className="Contact">
-      <h1 className="ContactTitle">Get In Touch</h1>
-      <div className="SocialDescription">
+      <h1 className={socialStyle.contactTitle}>Get In Touch</h1>
+      <div className={socialStyle.description}>
         <p>Follow me on my social media or drop me an email!</p>
       </div>
-      <ul className="socialList">
+      <ul className={socialStyle.list}>
         {social.map((social) => (
-          <li className="socialIcons">
+          <li className={socialStyle.icons}>
             <a href={social.url}>
             <img
               src={social.img}
@@ -25,7 +26,7 @@ export default function Contact() {
           </li>
         ))}
       </ul>
-      <div className="ContactForm">
+      <div className={socialStyle.form}>
         <ContactForm formSlug="chrysaliswoon" />
       </div>
     </div>

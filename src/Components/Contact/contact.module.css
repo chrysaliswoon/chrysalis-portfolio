@@ -1,0 +1,31 @@
+.contactTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    float: left;
+    padding: 20px;
+}
+
+.icons:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    padding: 30px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
