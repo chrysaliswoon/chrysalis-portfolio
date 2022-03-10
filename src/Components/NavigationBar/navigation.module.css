@@ -1,0 +1,65 @@
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 100;
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+
+.about {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.about:hover:not(.active) {
+  background-color: rgb(191, 191, 214);
+}
+
+.experience {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.experience:hover:not(.active) {
+  background-color: rgb(191, 191, 214);
+}
+
+.projects {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.projects:hover:not(.active) {
+  background-color: rgb(191, 191, 214);
+}
+
+.contact {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.contact:hover:not(.active) {
+  background-color: rgb(191, 191, 214);
+}

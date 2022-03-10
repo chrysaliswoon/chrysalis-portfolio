@@ -1,4 +1,4 @@
-import loaderStyle from "./Loader.module.css"
+import loaderStyle from "./Loader.module.css";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import axios from "axios";
@@ -39,10 +39,12 @@ export default function LoadingPage() {
         <article className={loaderStyle.QuoteHeader}>
           <blockquote className={loaderStyle.blockquote}>
             <li key={quotes._id}>
-              <strong><em>{quotes.content}</em></strong>
-              </li>
+              <strong>
+                <em>{quotes.content}</em>
+              </strong>
+            </li>
           </blockquote>
-              <b>{quotes.author}</b>
+          <b>{quotes.author}</b>
         </article>
       </div>
   );
