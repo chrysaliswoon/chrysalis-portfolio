@@ -1,4 +1,4 @@
-import "./Form.css"
+import formStyle from "./form.module.css"
 import React from 'react'
 
 export default function Form({name, setName}) {
@@ -11,7 +11,7 @@ export default function Form({name, setName}) {
   }
    
     return (
-        <div className="InputStyle">
+        <div className={formStyle.inputStyle}>
           <form onSubmit={handleClick}>
             <input 
             type="name"
