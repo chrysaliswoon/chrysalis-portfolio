@@ -1,11 +1,11 @@
 import homeStyle from "./homePage.module.css";
 import About from "../../Components/AboutMe/About";
-import Experience from "../../Components/Experiences/Experience";
 import Work from "../../Components/Projects/projects";
 import Contact from "../../Components/Contact/Contact";
-import NavBar from "../../Components/NavigationBar/navigation";
+import Navigation from "../../Components/NavigationBar/Navigation";
 import Introduction from "../../Components/Introduction/Introduction";
 import Footer from "../../Components/Footer/Footer";
+import Resume from "../../Components/Experience/Resume";
 
 export default function Website() {
   return (
@@ -13,7 +13,7 @@ export default function Website() {
       <div className={homeStyle.background}>
         <div className={homeStyle.navigation}>
           <nav id="Navigation">
-            <NavBar />
+            <Navigation />
           </nav>
         </div>
         <div className={homeStyle.introduction}>
@@ -28,7 +28,7 @@ export default function Website() {
         </div>
         <div className={homeStyle.experience}>
           <section id="Experience">
-            <Experience />
+            <Resume />
           </section>
         </div>
         <div className={homeStyle.work}>
