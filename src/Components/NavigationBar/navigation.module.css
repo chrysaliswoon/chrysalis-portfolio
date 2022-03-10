@@ -1,18 +1,24 @@
-.navigation {
-  background-color: #333;
-}
-
 .navList {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 100;
   overflow: hidden;
-  float: right;
+  background-color: #333;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45px;
 }
 
+
 .about {
-  float: left;
-  padding: 30px;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .about:hover:not(.active) {
@@ -20,8 +26,12 @@
 }
 
 .experience {
-  float: left;
-  padding: 30px;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .experience:hover:not(.active) {
@@ -29,8 +39,12 @@
 }
 
 .projects {
-  float: left;
-  padding: 30px;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .projects:hover:not(.active) {
@@ -38,8 +52,12 @@
 }
 
 .contact {
-  float: left;
-  padding: 30px;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .contact:hover:not(.active) {
