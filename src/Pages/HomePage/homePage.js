@@ -1,6 +1,6 @@
 import homeStyle from "./homePage.module.css";
 import About from "../../Components/AboutMe/About";
-import Work from "../../Components/Projects/projects";
+import Work from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
 import Navigation from "../../Components/NavigationBar/Navigation";
 import Introduction from "../../Components/Introduction/Introduction";
