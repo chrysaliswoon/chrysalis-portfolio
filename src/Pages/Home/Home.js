@@ -5,7 +5,7 @@ import Contact from "../../Components/Contact/Contact";
 import Introduction from "../../Components/Introduction/Introduction";
 import Footer from "../../Components/Footer/Footer";
 import Resume from "../../Components/Experience/Resume";
-import Navigation from "../../Components/NavigationBar/Navigation";
+import Navigation from "../../Components/Navigation/Navigation";
 
 export default function Website() {
   return (
