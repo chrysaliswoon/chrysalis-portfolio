@@ -107,7 +107,11 @@ User inputs name --> Welcome {user input} --> Motivational Quote (Loading screen
 
 **Week 3**
 
-1. 
+1. Update README with wireframes and user personas
+
+2. Use CSS to design the whole project
+
+3.  Check that everything is working
 
 ### Problem-Solving Strategy
 
