@@ -2,7 +2,7 @@ import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./Pages/HomePage/HomePage";
+import HomePage from "./Pages/Home/Home";
 import LoadingPage from './Pages/Loader/Loader'
 import Introduction from "./Pages/Intro/Intro";
 import WelcomeUser from "./Pages/Welcome/welcome";

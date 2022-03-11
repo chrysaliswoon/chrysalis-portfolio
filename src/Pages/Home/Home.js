@@ -1,11 +1,11 @@
-import homeStyle from "./homePage.module.css";
+import homeStyle from "./home.module.css";
 import About from "../../Components/AboutMe/About";
 import Work from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
-import Navigation from "../../Components/NavigationBar/Navigation
 import Introduction from "../../Components/Introduction/Introduction";
 import Footer from "../../Components/Footer/Footer";
 import Resume from "../../Components/Experience/Resume";
+import Navigation from "../../Components/NavigationBar/Navigation";
 
 export default function Website() {
   return (
