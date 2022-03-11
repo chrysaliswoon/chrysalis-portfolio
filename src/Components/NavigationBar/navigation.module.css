@@ -1,20 +1,19 @@
 .navList {
   list-style-type: none;
-  margin: 0;
-  padding: 100;
-  overflow: hidden;
-  background-color: #333;
+  width: 100%;
+  background-color: #936E9E;
+  overflow: auto;
   font-family: 'Kanit';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 45px;
+  float:right;
 }
 
 
 .about {
-  float: right;
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -23,11 +22,11 @@
 
 .about:hover:not(.active) {
   background-color: rgb(191, 191, 214);
+  color: #636FA4;
 }
 
 .experience {
-  float: right;
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -36,11 +35,11 @@
 
 .experience:hover:not(.active) {
   background-color: rgb(191, 191, 214);
+  color: #636FA4;
 }
 
 .projects {
-  float: right;
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -49,11 +48,11 @@
 
 .projects:hover:not(.active) {
   background-color: rgb(191, 191, 214);
+  color: #636FA4;
 }
 
 .contact {
-  float: right;
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -62,4 +61,5 @@
 
 .contact:hover:not(.active) {
   background-color: rgb(191, 191, 214);
+  color: #636FA4;
 }
