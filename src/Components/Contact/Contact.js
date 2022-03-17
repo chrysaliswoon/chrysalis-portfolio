@@ -25,9 +25,9 @@ export default function Contact() {
           </li>
         ))}
       </ul>
-      <div className={socialStyle.form}>
+      {/* <div className={socialStyle.form}>
         <ContactForm formSlug="chrysaliswoon" />
-      </div>
+      </div> */}
     </div>
   );
 }
