@@ -7,7 +7,7 @@ const experience = [
         location: "Singapore (Remote)",
         point1:"Managed products and process-improvement projects together with the Curriculum Team.",
         point2:"Developed follow-up materials to increase customer retention by 40%.",
-        point3:""
+        point3:"Work closely with lead instructors to provide parents with meaningful and prompt feedback on the students’ progress."
     },
     {
         id: 2,
